@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,56 +19,56 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>ja6K7/OHsZzBN64cdP0NIVfl5F4=3/12/2018 2:26:36 PM3/12/2018 10:27:40 AM</TimeStamp>
+        <TimeStamp>ja6K7/OHsZzBN64cdP0NIVfl5F4=3/12/2018 2:26:36 PM3/22/2018 9:25:42 AM</TimeStamp>
         <ID>
           <String>SSIS Demo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>p7YtSRNWZPaVnZAQGVOhvxdQTlE=3/12/2018 10:30:13 AM3/12/2018 10:30:12 AM</TimeStamp>
+        <TimeStamp>p7YtSRNWZPaVnZAQGVOhvxdQTlE=3/12/2018 10:30:13 AM3/22/2018 9:25:42 AM</TimeStamp>
         <ID>
           <String>SSIS Demo DSV</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>I8tW3hobMRMhPdX5HW3Sq25lKMo=3/12/2018 11:46:11 AM3/12/2018 11:46:11 AM</TimeStamp>
+        <TimeStamp>I8tW3hobMRMhPdX5HW3Sq25lKMo=3/12/2018 11:46:11 AM3/22/2018 9:25:42 AM</TimeStamp>
         <ID>
           <String>Dim Manufacturer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>V7///gI9YjBM6aufkqZVGD1C1Ws=3/12/2018 11:46:11 AM3/12/2018 11:46:11 AM</TimeStamp>
+        <TimeStamp>V7///gI9YjBM6aufkqZVGD1C1Ws=3/12/2018 11:46:11 AM3/22/2018 9:25:42 AM</TimeStamp>
         <ID>
           <String>Dim Period</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Uuc+IekoUzDK9Vbzvwh2+7jy+nk=3/12/2018 11:46:11 AM3/12/2018 11:46:11 AM</TimeStamp>
+        <TimeStamp>Uuc+IekoUzDK9Vbzvwh2+7jy+nk=3/12/2018 11:46:11 AM3/22/2018 9:25:42 AM</TimeStamp>
         <ID>
           <String>Dim Molecule</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>8FuuZ3HG286tbbJQNCVfSurnftk=3/12/2018 12:16:09 PM3/12/2018 11:46:11 AM</TimeStamp>
+        <TimeStamp>8FuuZ3HG286tbbJQNCVfSurnftk=3/12/2018 12:16:09 PM3/22/2018 9:25:42 AM</TimeStamp>
         <ID>
           <String>Dim Country</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>bg2M6mz1t6f3q+nflG4e9KVuxEk=3/12/2018 12:22:14 PM3/12/2018 11:46:11 AM</TimeStamp>
+        <TimeStamp>bg2M6mz1t6f3q+nflG4e9KVuxEk=3/12/2018 12:22:14 PM3/22/2018 9:25:42 AM</TimeStamp>
         <ID>
           <String>Dim Atc</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>uha+gAgr7NiLMFmDpeoJ7NIvE1g=3/12/2018 12:21:44 PM3/12/2018 11:46:11 AMyNFRE4BzU7xSC2mUGLycNuciL4w=3/12/2018 11:46:11 AM3/12/2018 11:46:11 AM</TimeStamp>
+        <TimeStamp>uha+gAgr7NiLMFmDpeoJ7NIvE1g=3/12/2018 12:21:44 PM3/22/2018 9:25:42 AMyNFRE4BzU7xSC2mUGLycNuciL4w=3/12/2018 11:46:11 AM3/22/2018 9:25:42 AM</TimeStamp>
         <ID>
           <String>SSIS Demo DSV</String>
         </ID>
@@ -76,7 +76,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>Z2zwvJeoZAyj/28gxUae/I/Xh6U=3/12/2018 10:25:06 AM3/12/2018 10:25:06 AM</TimeStamp>
+      <TimeStamp>Z2zwvJeoZAyj/28gxUae/I/Xh6U=3/12/2018 10:25:06 AM3/22/2018 9:25:42 AM</TimeStamp>
       <ID>
         <String>SSAS Demo</String>
       </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-03-12T08:26:50.876667Z</LastDeployed>
+  <LastDeployed>2018-03-22T04:24:00.983333Z</LastDeployed>
 </DeploymentSnapshot>
