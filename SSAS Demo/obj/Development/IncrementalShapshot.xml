@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS Demo</Database>
+    <Server>cdtssql775p</Server>
+    <ConnectionString>Data Source=cdtssql775p;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ja6K7/OHsZzBN64cdP0NIVfl5F4=3/12/2018 2:26:36 PM3/12/2018 10:27:40 AM</TimeStamp>
+        <ID>
+          <String>SSIS Demo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>p7YtSRNWZPaVnZAQGVOhvxdQTlE=3/12/2018 10:30:13 AM3/12/2018 10:30:12 AM</TimeStamp>
+        <ID>
+          <String>SSIS Demo DSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>I8tW3hobMRMhPdX5HW3Sq25lKMo=3/12/2018 11:46:11 AM3/12/2018 11:46:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Manufacturer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>V7///gI9YjBM6aufkqZVGD1C1Ws=3/12/2018 11:46:11 AM3/12/2018 11:46:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Period</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Uuc+IekoUzDK9Vbzvwh2+7jy+nk=3/12/2018 11:46:11 AM3/12/2018 11:46:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Molecule</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8FuuZ3HG286tbbJQNCVfSurnftk=3/12/2018 12:16:09 PM3/12/2018 11:46:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Country</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bg2M6mz1t6f3q+nflG4e9KVuxEk=3/12/2018 12:22:14 PM3/12/2018 11:46:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Atc</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>uha+gAgr7NiLMFmDpeoJ7NIvE1g=3/12/2018 12:21:44 PM3/12/2018 11:46:11 AMyNFRE4BzU7xSC2mUGLycNuciL4w=3/12/2018 11:46:11 AM3/12/2018 11:46:11 AM</TimeStamp>
+        <ID>
+          <String>SSIS Demo DSV</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>Z2zwvJeoZAyj/28gxUae/I/Xh6U=3/12/2018 10:25:06 AM3/12/2018 10:25:06 AM</TimeStamp>
+      <ID>
+        <String>SSAS Demo</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-03-12T08:26:50.876667Z</LastDeployed>
+</DeploymentSnapshot>
